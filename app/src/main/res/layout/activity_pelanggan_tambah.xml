@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="none"
+    tools:context=".ui.agen.create.AgenCreateActivity">
+
+    <androidx.cardview.widget.CardView
+        android:layout_margin="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:padding="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <com.rengwuxian.materialedittext.MaterialEditText
+                android:id="@+id/edtIdPlg"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="ID Pelanggan"
+                app:met_floatingLabel="highlight"
+                android:textColorHint="@color/md_grey_800"
+                android:inputType="text"/>
+
+            <com.rengwuxian.materialedittext.MaterialEditText
+                android:id="@+id/edtNama"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Nama Pelanggan"
+                app:met_floatingLabel="highlight"
+                android:textColorHint="@color/md_grey_800"
+                android:inputType="text"/>
+
+            <com.rengwuxian.materialedittext.MaterialEditText
+                android:id="@+id/edtAlamat"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Alamat Lengkap"
+                app:met_floatingLabel="highlight"
+                android:textColorHint="@color/md_grey_800"
+                android:inputType="text"/>
+
+            <com.rengwuxian.materialedittext.MaterialEditText
+                android:id="@+id/edtEmail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Email"
+                app:met_floatingLabel="highlight"
+                android:textColorHint="@color/md_grey_800"
+                android:inputType="textEmailAddress"/>
+
+            <com.rengwuxian.materialedittext.MaterialEditText
+                android:id="@+id/edtMobile"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Nomor HP"
+                app:met_floatingLabel="highlight"
+                android:textColorHint="@color/md_grey_800"
+                android:inputType="number"/>
+
+            <com.rengwuxian.materialedittext.MaterialEditText
+                android:id="@+id/edtLokasi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Lokasi"
+                android:focusable="false"
+                app:met_floatingLabel="highlight"
+                android:textColorHint="@color/md_grey_800"
+                android:inputType="text"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="italic"
+                android:id="@+id/tvAlamat"/>
+
+            <com.dd.processbutton.FlatButton
+                android:layout_marginTop="8dp"
+                android:id="@+id/btnCreate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:pb_colorNormal="@color/primary"
+                app:pb_colorPressed="@color/primary_dark"
+                android:text="SIMPAN"
+                android:textColor="@color/colorWhite"
+                />
+
+            <pl.droidsonroids.gif.GifImageView
+                android:visibility="gone"
+                android:id="@+id/loading_ripple"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/gif_loading"
+                />
+
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</ScrollView>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#2196F3</color>
+    <color name="colorPrimaryDark">#1565C0</color>
+    <color name="colorAccent">#FB8C00</color>
+    <color name="colorAccentDark">#E65100</color>
+    <color name="secondary">#EBEBEB</color>
+    <color name="colorBackground">#5000ca</color>
+    <color name="btnPrimary">#508aeb</color>
+    <color name="btnAccesnt">#056F7C</color>
+    <color name="background_app">#2196f3</color>
+    <color name="colorTextDefault">#FFF</color>
+    <color name="warnaripple">#402196F3</color>
+    <color name="half_black">#808080</color>
+    <color name="colorWhite">#fafafa</color>
+    <color name="black_semi_transparent">#B2000000</color>
+    <color name="colorAccent3">#ff5560</color>
+</resources>

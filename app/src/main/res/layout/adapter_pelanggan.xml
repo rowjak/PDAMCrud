@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    android:id="@+id/cardItemPelanggan"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:clickable="true"
+    android:foreground="?android:attr/selectableItemBackground"
+    app:cardCornerRadius="4dp"
+    app:cardElevation="4dp"
+    android:layout_margin="4dp">
+
+    <LinearLayout
+        android:layout_margin="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:drawableStart="@drawable/ic_account_circle"
+            android:drawableTint="@color/primary"
+            android:drawablePadding="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvNama"
+            android:text="Nama Pelanggan"/>
+
+        <TextView
+            android:drawableStart="@drawable/ic_alamat"
+            android:drawableTint="@color/primary"
+            android:drawablePadding="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvAlamat"
+            android:text="Alamat Pelanggan"/>
+
+        <TextView
+            android:drawableStart="@drawable/ic_mobile"
+            android:drawableTint="@color/primary"
+            android:drawablePadding="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvMobile"
+            android:text="Nomor Hp"/>
+
+        <TextView
+            android:drawableStart="@drawable/ic_jarak"
+            android:drawableTint="@color/primary"
+            android:drawablePadding="8dp"
+            android:layout_gravity="end"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvJarak"
+            android:text="Jarak"/>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
